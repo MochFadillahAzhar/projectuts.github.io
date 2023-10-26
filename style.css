@@ -1,0 +1,262 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    position: sticky;
+    z-index: 9999;
+    width: 100%;
+    background-color: #2a8b9e;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+nav .logo {
+    font-size: 1.rem;
+    width: 30%;
+}
+
+nav .logo img {
+    padding-top: 0px;
+    width: 110px;
+}
+
+.nav-links {
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.nav-links li{
+    margin: 0 30px;
+    
+}
+
+.nav-links li a {
+    color: inherit;
+    margin-left: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* CSS for main content */
+.contents{
+}
+
+.row {
+    height: 500px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.content-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.content-left h1{
+    width: 80%;
+    font-size: 50px;
+    text-align: start;
+    font-weight: 700;
+}
+
+.content-left div .btn {
+    padding: 13px 60px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #2a8b9e;
+    border-color: #2a8b9e;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+
+.row img {
+    object-fit: cover;
+    width: 50%;
+}
+.content-left p{
+    margin: 30px 0 50px 0;
+    text-align: start;
+    width: 80%;
+    font-size: 25px;
+}
+
+.content-left div{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-left div a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.content-left div hr{
+    border-top: 1px solid grey;
+}
+
+.row .conteiner-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.row .conteiner-2 i{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.row .conteiner-2 h2{
+    width: 60%;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.row .conteiner-2 p{
+    font-size: 20px;
+}
+
+.row .conteiner-3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row .conteiner-3 img{
+    width: 600px;
+}
+
+#cont-3-right{
+    align-items: start;
+}
+
+#cont-3-right h2{
+    width: 80%;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#cont-3-right p{
+    width: 80%;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.cont-3-btn{
+    padding: 13px 60px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #2a8b9e;
+    border-color: #2a8b9e;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.row.form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form {
+    background: #fff;
+}
+
+form label {
+    display: block;
+}
+
+input,
+textarea {
+    padding: 1em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-col ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.footer-col ul li{
+    margin: 3px 0;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media a i{
+    margin: 25px 10px 30px 10px;
+    color: #fff;
+    font-size: 25px;
+}
